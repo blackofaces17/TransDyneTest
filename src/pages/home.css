@@ -1,0 +1,47 @@
+.home-root {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: auto;
+  justify-content: start;
+}
+
+.card-root {
+  height: 15rem;
+  width: 15rem;
+  margin: 1rem;
+  border: 3px solid grey;
+  border-radius: 15px;
+}
+.card-image {
+  width: 10rem;
+  height: 10rem;
+  margin: 1rem;
+}
+
+.home-header {
+  height: 8rem;
+  margin-bottom: 1rem;
+  width: 100vw;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+.search-text {
+  margin: 0.5rem;
+  border-radius: 15px;
+  border-color: white;
+}
+.reset-search {
+  border-radius: 15px;
+  padding: 1px;
+  width: 5rem;
+  border-color: white;
+}
+.search-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
